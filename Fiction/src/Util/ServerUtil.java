@@ -18,7 +18,7 @@ import entuty.FictionInfo;
 import entuty.User;
 
 public class ServerUtil {
-	// 登陆操作22222222
+	// 登陆操作222222221111
 	public static boolean login(User user) {
 		// 创建SAXReader对象
 		SAXReader reader = new SAXReader();
