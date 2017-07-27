@@ -1,0 +1,34 @@
+package entuty;
+
+import java.io.Serializable;
+
+/**
+ *用户类
+ * @author 
+ *
+ */
+public class User implements Serializable{
+	private String name;    //用户名11111
+	private String password;  //用户密码211111111
+	private Integer flag;   //标记（0：代表登陆  1：代表注册）
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public Integer getFlag() {
+		return flag;
+	}
+	public void setFlag(Integer flag) {
+		this.flag = flag;
+	}		
+	
+}

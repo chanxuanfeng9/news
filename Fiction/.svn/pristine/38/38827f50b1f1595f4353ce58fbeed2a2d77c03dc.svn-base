@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AccountIfon> 
+  <user name="admin" password="admin"/>  
+  <user name="abc" password="123"/>  
+  <user name="abcd" password="123456"/>  
+  <user name="12345" password="12345"/>
+</AccountIfon>
